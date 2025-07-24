@@ -1,0 +1,24 @@
+package com.WebPagesTest;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class WebPagesLaunch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("----Web Page Opening!!!!----");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Haritha J\\selenium-workspace\\Selenium_EdgeBrowser_Launch\\EdgeBrowserJars\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://open-source-demo.orangehrmlive.com");
+		driver.get("https://demo.opencart.com");
+		driver.get("https://www.bing.com");
+		driver.get("https://www.freecrm.com");
+		driver.get("https://www.half.ebay.com");
+		driver.manage().window().minimize();
+		
+	}
+
+}
