@@ -6,8 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class WebPagesLaunch {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.edge.driver", 
-            "C:\\Users\\Haritha J\\selenium-workspace\\Selenium_EdgeBrowser_Launch\\EdgeBrowserJars\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver","C:\\Users\\Haritha J\\selenium-workspace\\Selenium_EdgeBrowser_Launch\\EdgeBrowserJars\\msedgedriver.exe");
 
         System.out.println("----Opening each site in a separate Edge window----");
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T12:25:48 IST" name="Default suite" finished-at="2025-07-25T12:26:02 IST" duration-ms="14340">
+    <groups>
+    </groups>
+    <test started-at="2025-07-25T12:25:48 IST" name="Default test" finished-at="2025-07-25T12:26:02 IST" duration-ms="14340">
+      <class name="com.locatorsdemo.LocatorsDemoID">
+        <test-method signature="DemoTestID()[pri:0, instance:com.locatorsdemo.LocatorsDemoID@6b2ea799]" started-at="2025-07-25T12:25:48 IST" name="DemoTestID" finished-at="2025-07-25T12:26:02 IST" duration-ms="14306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTestID -->
+      </class> <!-- com.locatorsdemo.LocatorsDemoID -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
