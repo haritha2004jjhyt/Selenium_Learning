@@ -1,0 +1,22 @@
+package com.EdgeBrowserCommands;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class getCureentUrl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		WebDriver driver = new FirefoxDriver();  //for firefox opening
+//		WebDriver driver = new ChromeDriver();  //for chrome opening	
+	
+		System.out.println("----Web Page Opening!!!!----");
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.selenium.dev/downloads/");
+		driver.manage().window().maximize();
+		String URL=driver.getCurrentUrl();
+		System.out.println(Title);
+
+	}
+
+}
