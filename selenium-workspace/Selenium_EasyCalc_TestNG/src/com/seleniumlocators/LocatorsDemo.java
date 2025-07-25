@@ -23,7 +23,7 @@ public class LocatorsDemo {
         Thread.sleep(3000);
 
         // Click the first relevant search result
-        driver.findElement(By.xpath("(//div[@class='gsc-expansionArea']//a)[1]")).click();
+        driver.findElement(By.xpath("")).click();
 
         Thread.sleep(5000);
         driver.quit();
