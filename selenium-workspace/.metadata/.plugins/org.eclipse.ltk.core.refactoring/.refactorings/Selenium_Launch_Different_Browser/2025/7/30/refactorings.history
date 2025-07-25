@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;com.seleniumBrowsers&apos; to &apos;com.seleniumBrowser&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Launch_Different_Browser&apos;&#x0D;&#x0A;- Original element: &apos;Selenium_Launch_Different_Browser/src/com.seleniumBrowsers&apos;&#x0D;&#x0A;- Renamed element: &apos;Selenium_Launch_Different_Browser/src/com.seleniumBrowser&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.seleniumBrowsers&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.seleniumBrowsers" name="com.seleniumBrowser" qualified="false" references="true" stamp="1753348081079" textual="false" version="1.0"/>
-</session>
