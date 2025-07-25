@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumlocators.LocatorsDemo">
+      <class name="com.seleniumlocators.LinkTextandPartialLinkText">
         <methods>
-          <include name="DemoTestID"/>
+          <include name="setUp"/>
+          <include name="linkTest"/>
         </methods>
-      </class> <!-- com.seleniumlocators.LocatorsDemo -->
+      </class> <!-- com.seleniumlocators.LinkTextandPartialLinkText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

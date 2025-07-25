@@ -22,6 +22,12 @@ public class LinkTextandPartialLinkText {
     @Test
     public void linkTest() {
         driver.get("https://www.hollandandbarrett.com/");
+//        try {
+//            Thread.sleep(2000);
+//            driver.findElement(By.id("onetrust-accept-btn-handler")).click();
+//        } catch (Exception e) {
+//            System.out.println("No cookie popup found.");
+//        }
 
         // Click link by partial link text
         driver.findElement(By.partialLinkText("Vitamins")).click();
@@ -33,16 +39,17 @@ public class LinkTextandPartialLinkText {
 
         for (int i = 0; i < links.size(); i++) {
             System.out.println(links.get(i).getText());
+         // Store specific link text
+            String str = links.get(i).getText();
+            String str1 = "Vitamins";
+
+            // Click on 'Vitamins' link if matched
+            if (str1.equals(str)) {
+                driver.findElement(By.linkText("Vitamins")).click();
+                driver.findElement(By.xpath("(//a[contains(@type,'button')])[4]")).click();
+            }
         }
 
-        // Store specific link text
-        String str = links.get(1).getText();
-        String str1 = "Vitamins";
-
-        // Click on 'Vitamins' link if matched
-        if (str1.equals(str)) {
-            driver.findElement(By.linkText("Vitamins")).click();
-            driver.findElement(By.xpath("(//a[contains(@type,'button')])[4]")).click();
-        }
+        
     }
 }
